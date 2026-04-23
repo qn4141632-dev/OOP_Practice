@@ -23,38 +23,7 @@ class Point:
             dx = self.__x - P.__x
             dy = self.__y - P.__y
             return math.sqrt(dx**2 +dy**2)
-if __name__ == "__main__":
-    print("=== Kiem thu lop Point ===")
 
 
-    p0 = Point()
-    print("Diem p0:",end="")
-    p0.print()
-
-
-    p2 = Point(3,4)
-    print("Diem p2:",end="")
-    p2.print()
-
-
-    print("Nhap toa do cho p0:")
-    p0.read()
-    print("Sau khi nhap,p0=",end="")
-    p0.print()
-
-
-    p0.move(2,-1)
-    print("Sau khi di chuyen p0:",end="")
-    p0.print()
-
-
-    print("Hoanh do p0:",p0.getX())
-    print("Tung do p0:",p0.getY())
-
-
-    print("Khoang cach p2 den goc:",p2.distance())
-
-
-    print("Khoang cach p0 den p2:",p0.distance(p2))
 
 
